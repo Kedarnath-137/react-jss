@@ -15,7 +15,6 @@ function App() {
       <OrderList></OrderList>
       <UnorderedList></UnorderedList>
       <ImageComponent></ImageComponent>
-      
       <TableComp></TableComp>
     </div>
   );
