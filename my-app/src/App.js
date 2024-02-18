@@ -3,8 +3,11 @@ import ButtonComponent from './components/function components/button/button-comp
 import OrderList from './components/function components/list/order-list/ordered-list';
 import UnorderedList from './components/function components/list/unorder-list/unordered-list';
 import ImageComponent from './components/function components/image/imagecmpnt';
-import Profile from './components/function components/jsx/jsx';
 import Designed from './components/function components/jsx/jsx1';
+import RulesOfJsx from './components/function components/jsx/rules';
+import { Profile1, Profile2 } from './components/function components/export-imports/gallery';
+import {Profile as Sai} from './components/function components/export-imports/gallery';
+import Kedar from './components/function components/export-imports/gallery';
 
 function App() {
   
@@ -12,9 +15,12 @@ function App() {
     <div>
       <h1>hello world</h1>
 
-       <Profile></Profile> 
+       <RulesOfJsx></RulesOfJsx>
+       <Kedar></Kedar>
+       <Sai></Sai>
+       <Profile1></Profile1>
+       <Profile2></Profile2>
 
-      <Designed></Designed>
     </div>
   );
 }
