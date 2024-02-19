@@ -8,6 +8,8 @@ import RulesOfJsx from './components/function components/jsx/rules';
 import { Profile1, Profile2 } from './components/function components/export-imports/gallery';
 import {Profile as Sai} from './components/function components/export-imports/gallery';
 import Kedar from './components/function components/export-imports/gallery';
+import Prop from './components/function components/props/props';
+import Parent from './components/function components/props/parent';
 
 function App() {
   
@@ -15,12 +17,8 @@ function App() {
     <div>
       <h1>hello world</h1>
 
-       <RulesOfJsx></RulesOfJsx>
-       <Kedar></Kedar>
-       <Sai></Sai>
-       <Profile1></Profile1>
-       <Profile2></Profile2>
-
+       <Prop></Prop>
+      <Parent></Parent>
     </div>
   );
 }

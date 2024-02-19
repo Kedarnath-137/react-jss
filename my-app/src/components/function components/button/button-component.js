@@ -1,9 +1,9 @@
 
 
-function ButtonComponent(){
+function ButtonComponent({title,width = 100,bgColor}){
     return(
         
-        <button>click me</button>
+        <button style={{width :width, backgroundColor:bgColor }}>{title}</button>
     )
 }
 
