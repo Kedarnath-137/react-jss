@@ -10,15 +10,18 @@ import {Profile as Sai} from './components/function components/export-imports/ga
 import Kedar from './components/function components/export-imports/gallery';
 import Prop from './components/function components/props/props';
 import Parent from './components/function components/props/parent';
+import FancyText from './components/function components/styles/text';
+import Content from './components/function components/styles/bootstrap/content';
+import Card from './components/function components/styles/bootstrap/card';
 
 function App() {
   
   return (
     <div>
       <h1>hello world</h1>
-
-       <Prop></Prop>
-      <Parent></Parent>
+        <FancyText></FancyText>
+        <Content></Content>
+        <Card></Card>
     </div>
   );
 }
